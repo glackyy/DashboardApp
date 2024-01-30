@@ -1,5 +1,5 @@
 {
-  "name": "DashApp",
+  "name": "DashboardApp",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -50,6 +50,6 @@
     ]
   },
   "refine": {
-    "projectId": "ijHdEo-S6hxnL-dYdDp5"
+    "projectId": "Sl2DoK-BYTIUP-Z95gnC"
   }
 }
