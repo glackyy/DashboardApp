@@ -6,7 +6,7 @@ import { useNotificationProvider } from "@refinedev/antd";
 import "@refinedev/antd/dist/reset.css";
 
 import { dataProvider, liveProvider, authProvider } from "./providers";
-import { Home } from "./pages";
+import {Home, ForgotPassword, Login, Register } from "./pages";
 import routerBindings, {
   DocumentTitleHandler,
   UnsavedChangesNotifier,
@@ -38,6 +38,9 @@ function App() {
                 <Routes>
                   <Route index element={<WelcomePage />} />
                   <Route index element={<Home />} />
+                  <Route index element={<Register />} />
+                  <Route index element={<Login />} />
+                  <Route index element={<ForgotPassword />} />
                 </Routes>
                 <RefineKbar />
                 <UnsavedChangesNotifier />
